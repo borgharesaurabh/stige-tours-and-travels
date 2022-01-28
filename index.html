@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CAR RENTAL PAGE</title>
+</head>
+<body>
+ 
+<section class="showcase ">
+  <header>
+    <h2 class="logo">Stige Tours and Travels</h2>
+    <div class="toggle "></div>
+  </header>
+  <video src="stige tours.mp4" muted loop autoplay></video>
+
+  <div class="overlay"></div>
+
+  <div class="text">
+    <h2>It's not the destination,it's the journey. </h2> 
+    <h3>lets start the trip</h3>
+    <p>Road trips breed insight and perspective. When you're out on the open road, it allows your mind to wander, helping you recognize and address deeply ingrained thoughts, memories and emotions. Simply put, road trips allow us to unwind and decompress. In the process, we learn more about ourselves and the world around us.</p>
+    <a href="#">Explore</a>
+  </div>
+  <ul class="social">
+    <li><a href="#"><img src="facebook.png" alt=""></a></li>
+    <li><a href="#"><img src="twitter.png" alt=""></a></li>
+    <li><a href="#"><img src="instagram.png" alt=""></a></li>
+  </ul>
+</section>
+<div class="menu">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">City</a></li>
+    <li><a href="#">Destination</a></li>
+    <li><a href="#">My Rides</a></li>
+    <li><a href="#">Help</a></li>
+  </ul>
+</div>
+
+<script>
+  const menuToggle = document.querySelector('.toggle')
+  const showcase = document.querySelector('.showcase')
+
+  menuToggle.addEventListener('click',() => {
+    menuToggle.classList.toggle('active')
+    showcase.classList.toggle('active')
+  })
+</script>
+
+
+</body>
+</html>
